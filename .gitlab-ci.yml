@@ -1,0 +1,29 @@
+image: python:3.12  # Specify the Python Docker image version you want to use
+
+before_script:
+  - pip install awscli
+  - pip install sagemaker
+
+stages:
+  - train
+  - deploy
+  - predict
+
+train:
+  stage: train
+  script:
+    - python train_model.py
+
+deploy:
+  stage: deploy
+  script:
+    - python deploy_model.py
+
+predict:
+  stage: predict
+  script:
+    - python generate_predictions.py
+  artifacts:
+    paths:
+      - predictions.csv
+
