@@ -36,8 +36,8 @@ Consult the high-level architecture of TESTynamo
 For further reference please read my paper:
 TESTynamo: An automated end-to-end CI/CD integrated GAN-powered unit test generator
 <br>
-[TESTynamo](https://assets.appstasy.in/nandinee/projects/testynamo/TESTynamo.pdf)
+[TESTynamo](https://assets.nandinibhatt.me/projects/testynamo/TESTynamo.pdf)
 
 ```
-https://assets.appstasy.in/nandinee/projects/testynamo/TESTynamo.pdf
+https://assets.nandinibhatt.me/projects/testynamo/TESTynamo.pdf
 ```
