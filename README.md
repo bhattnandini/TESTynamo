@@ -22,7 +22,8 @@ The source code to be tested and its unit tests can be found at root of the repo
 
 Consult the high-level architecture of TESTynamo
 
-![alt text](./figures/system_architecture.png)
+![System](./figures/system_architecture.png)
+![Cloud](architecture.svg)
 
 ## Key Contributions
 
